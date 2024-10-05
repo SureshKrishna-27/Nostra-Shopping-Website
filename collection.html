@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nastra</title>
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!---Font Awsome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!---NAVBAR-->
+
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!----Side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+    </div>
+
+    <!----Product-->
+
+    <div class="product-section">
+        
+            <form class="product-search">
+                <input type="text" id="search" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        
+        
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2022/04/12/04/51/asian-woman-7127159_1280.jpg" alt="">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2021/01/16/18/20/man-5923039_1280.jpg" alt="">
+                <p>T Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2017/09/03/14/41/mock-up-2710535_1280.jpg" alt="">
+                <p>T Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2016/05/14/10/06/face-1391628_1280.jpg" alt="">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2017/08/17/10/23/shirt-2650677_1280.jpg" alt="">
+                <p>White Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2016/05/14/10/06/face-1391628_1280.jpg" alt="">
+                <p>Black Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="https://cdn.pixabay.com/photo/2022/04/12/04/51/asian-woman-7127159_1280.jpg" alt="">
+                <p>White Shirt</p>
+                </div>
+                <div class="product-box">
+                    <img src="https://cdn.pixabay.com/photo/2017/09/03/14/41/mock-up-2710535_1280.jpg" alt="">
+                    <p>T Shirt</p>
+                </div>
+            
+        </div>
+    </div>
+
+
+    <!---Footer-->
+
+    <div class="footer">
+
+        <div class="footer-container">
+            <div class="footer-container-box">
+                <h2>Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, porro et.</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram" style="color: aliceblue;"></i>
+                    <i class="fa-brands fa-twitter" style="color: aliceblue;"></i>
+                    <i class="fa-brands fa-facebook" style="color: aliceblue;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024 Nastra.com</p>
+    </div>
+
+
+
+
+
+    <script src="collection.js "></script>
+</body>
+
+</html>
